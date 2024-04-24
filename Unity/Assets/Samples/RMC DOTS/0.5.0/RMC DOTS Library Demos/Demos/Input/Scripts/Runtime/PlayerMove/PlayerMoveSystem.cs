@@ -1,13 +1,15 @@
 ﻿using RMC.DOTS.SystemGroups;
+using RMC.DOTS.Systems.Audio;
 using RMC.DOTS.Systems.Input;
 using RMC.DOTS.Systems.Player;
 using Unity.Burst;
 using Unity.Entities;
 using Unity.Mathematics;
+using Unity.Physics;
 using Unity.Transforms;
 using UnityEngine;
 
-namespace RMC.DOTS.Demos.Input
+namespace RMC.DOTS.Demos.PlayerMove
 {
     [BurstCompile]
     [UpdateInGroup(typeof(PauseableSystemGroup))]
@@ -30,7 +32,7 @@ namespace RMC.DOTS.Demos.Input
             float deltaTime = SystemAPI.Time.DeltaTime;
             
             // Loop through all players. Move each
-            foreach (var localTransform in 
+            foreach (var localTransform in
                      SystemAPI.Query<RefRW<LocalTransform>>().WithAll<PlayerTag>())
             {
                 localTransform.ValueRW.Position.x += move.x * deltaTime * 10;

@@ -1,7 +1,7 @@
 ﻿using Unity.Entities;
 using UnityEngine;
 
-namespace RMC.DOTS.Demos.Input
+namespace RMC.DOTS.Demos.PlayerMove
 {
     public class PlayerMoveSystemAuthoring : MonoBehaviour
     {

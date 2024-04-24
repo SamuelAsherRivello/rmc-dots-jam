@@ -11,7 +11,7 @@
       "url": "https://registry.npmjs.org"
     },
     "com.rmc.rmc-dots": {
-      "version": "0.5.0",
+      "version": "0.6.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
