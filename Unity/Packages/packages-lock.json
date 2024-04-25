@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "com.rmc.rmc-dots": {
-      "version": "0.8.1",
+      "version": "https://github.com/SamuelAsherRivello/rmc-dots.git",
       "depth": 0,
-      "source": "registry",
+      "source": "git",
       "dependencies": {
         "com.rmc.rmc-readme": "1.2.2"
       },
-      "url": "https://registry.npmjs.org"
+      "hash": "b9460b28de3d05cb016733a767c8c263ef51db6a"
     },
     "com.rmc.rmc-readme": {
       "version": "1.2.2",
