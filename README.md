@@ -2,7 +2,7 @@
 
 Starting point to game jam using the RMC DOTS Library.
 
-# Configuration
+## Configuration
 
 **Documentation**
 * `ReadMe.md` - The primary documentation for this repo
